@@ -27,11 +27,3 @@ Create a production build with:
 ```bash
 npm run build
 ```
-
-## Docker
-
-```bash
-docker compose up -d --build
-```
-
-The production container joins the external Docker network `chleb-apps` and is available to a reverse proxy at `http://heic-to-jpg:80`.
