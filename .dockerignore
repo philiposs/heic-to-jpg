@@ -1,0 +1,8 @@
+.git
+.gitignore
+README.md
+screenshots
+docs
+node_modules
+dist
+.vercel

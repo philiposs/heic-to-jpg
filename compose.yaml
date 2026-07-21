@@ -1,0 +1,11 @@
+services:
+  heic-to-jpg:
+    build: .
+    container_name: heic-to-jpg
+    restart: unless-stopped
+    networks:
+      - chleb-apps
+
+networks:
+  chleb-apps:
+    external: true
